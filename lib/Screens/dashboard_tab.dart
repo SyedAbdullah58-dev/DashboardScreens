@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled/Screens/BloodGlucose.dart';
 import 'package:untitled/Screens/BloodPressure.dart';
 import 'package:untitled/Screens/ExerciseScreen.dart';
+import 'package:untitled/Screens/HealthRecords.dart';
 import 'package:untitled/Screens/MoodScreen.dart';
 import 'package:untitled/Screens/WeightScreen.dart';
 class DashBoardTab extends StatefulWidget {static const routname= "/db";
@@ -103,7 +104,7 @@ class _DashBoardTabState extends State<DashBoardTab> {
                     BloodGlucose(),
                     ExcerciseScreen(),
                    MoodScreen(),
-                    BloodPressure(),
+                    HealthRecords(),
                     BloodPressure(),
                   ],
                 ))
