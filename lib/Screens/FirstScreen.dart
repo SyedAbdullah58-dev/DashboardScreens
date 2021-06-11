@@ -115,7 +115,7 @@ class FirstScreen extends StatelessWidget {
                       //       ),
                       //     ),
                       //   ),
-                      syncbtton(title: "Sync Now",
+                      SyncButton(title: "Sync Now",
                         size: size,
                         route: DashBoardTab.routname,
                       )

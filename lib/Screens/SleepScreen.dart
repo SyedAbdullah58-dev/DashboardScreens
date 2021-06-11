@@ -89,7 +89,7 @@ class SleepScreen extends StatelessWidget {
                         ),
                       ),
                       SizedBox(height: size.height * 0.2,),
-                      syncbtton(size: size, route: ""),
+                      SyncButton(size: size, route: ""),
                     ],
                   ),
                 ),

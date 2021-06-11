@@ -122,7 +122,7 @@ class BloodPressure extends StatelessWidget {
                           ),
                         ),
                       ),
-                      syncbtton(size: size, route: "",title: "Sync Device"),
+                      SyncButton(size: size, route: "",title: "Sync Device"),
                     ],
                   ),
                 ),

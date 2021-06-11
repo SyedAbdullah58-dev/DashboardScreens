@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class syncbtton extends StatelessWidget {
+class SyncButton extends StatelessWidget {
   final Size size;
   final String route;
   final String title;
 
-  const syncbtton({Key key, this.size, this.route,this.title}) : super(key: key);
+  const SyncButton({Key key, this.size, this.route,this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -94,7 +94,7 @@ class ExcerciseScreen extends StatelessWidget {
                         ),
                       ),
                       SizedBox(height: size.height * 0.2,),
-                      syncbtton(size: size, route: "",title: "Sync Device"),
+                      SyncButton(size: size, route: "",title: "Sync Device"),
                     ],
                   ),
                 ),

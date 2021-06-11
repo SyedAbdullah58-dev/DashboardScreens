@@ -131,7 +131,7 @@ class MoodScreen extends StatelessWidget {
                       )],))
 ,
                       SizedBox(height: size.height * 0.1,),
-                      syncbtton(size: size, route: "",title: "Confirm"),
+                      SyncButton(size: size, route: "",title: "Confirm"),
                     ],
                   ),
                 ),

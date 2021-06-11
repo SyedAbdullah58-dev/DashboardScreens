@@ -118,7 +118,7 @@ class BloodGlucose extends StatelessWidget {
                       SizedBox(
                         height: size.height * 0.15,
                       ),
-                      syncbtton(size: size, route: "",title: "Sync Device",),
+                      SyncButton(size: size, route: "",title: "Sync Device",),
                     ],
                   ),
                 ),
